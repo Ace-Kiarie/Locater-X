@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+html{
+    overflow-y: hidden;
+}
+
+body{
+    display: block;
+    align-items: center;
+    justify-content:center;
+    min-height: 100vh;
+    background: linear-gradient(rgb(73, 227, 238) 40%,rgb(75, 123, 214) 60%);
+}
+
+button:hover{
+    background-color: rgb(75, 123, 214);
+    color: rgb(252, 252, 252);
+}
+
+button{
+    margin: 0 auto;
+    margin-top: 40vh;
+    display: block;
+    font-size: 35px;
+    padding: 15px 46px;
+    background-color: rgb(252, 252, 252);
+    color: rgb(75, 123, 214) ;
+    transition: background-color .8s ease-in;
+    border: none ;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.reset button{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 9px 36px;
+}
+
+.footer-sec{
+    position: absolute;
+    bottom: 0px;
+    left: 45vw;
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer-sec p a{
+    text-decoration: none;
+    color: rgb(165, 165, 165);
+}
+
+.footer-sec p a:hover{
+    color: rgb(245, 245, 245);
+}
